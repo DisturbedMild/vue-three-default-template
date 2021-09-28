@@ -1,5 +1,10 @@
 # vue-three-default-template
 
+This is my default tempale for practicing in using Vue 3.
+  Packages: 
+   vue-testing-utils,
+   vuex
+
 ## Project setup
 ```
 npm install
