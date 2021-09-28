@@ -1,4 +1,15 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
+import { createStorages } from "vuex";
 
-createApp(App).mount('#app')
+const storage = createStorages({
+ state() {
+  return {};
+ },
+});
+
+app.use(storage);
+
+const app = createApp(App);
+
+app.mount("#app");
